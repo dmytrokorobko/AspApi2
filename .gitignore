@@ -1,0 +1,21 @@
+# Build artifacts
+bin/
+obj/
+packages/
+
+# Rider/JetBrains
+.idea/
+*.sln.iml
+riderModule.iml
+_ReSharper*/
+*.DotSettings.user
+
+# ASP.NET secrets (если используешь user-secrets)
+secrets.json
+
+# Local app configs
+appsettings.Development.json
+appsettings.json
+
+# Logs
+*.log
